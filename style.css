@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body, html {
+    /* background-color: #f2f4f2; */
+    background-color: #fefcfc;
+    margin: 0;
+}
+
+/* CSS Header */
+header {
+    background-color: #00796B;
+    color: #fff;
+}
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.header-right ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-right ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.header-right li a:hover {
+    transition: all 0.5s;
+    background-color: #119989;
+}
+
+
+
+/* Batas CSS Header */
+
+/* CSS Jumbotron */
+
+/* batas */
+.jumbotron{
+    overflow: hidden;	
+    padding: 3em 0em;
+    
+    background-image: url(https://i.pinimg.com/originals/70/63/0d/70630da368cc7d6dd65948c902c2a9e6.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+/* Batas */
+.logo {
+    padding: 80px 0;
+    text-align: center;
+}
+.logo h1 {
+    font-size: 55px;
+}
+.logo a{
+    text-decoration: none;
+    color: #fff;
+}
+.logo span {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #f5f5f5;
+    text-transform: uppercase;
+}
+.logo .btn-logo {
+    margin-top: 50px;
+}
+/* Batas Jumbotron */
+
+/* CSS MAIN CONTENT */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container .title-intro {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* .container .title-intro .title-tag {
+    
+} */
+.container .title-intro .title-tag h1{
+    font-size: 3em;
+}
+.container .title-intro .intro {
+    width: 50%;
+}
+
+.line {
+    border-top: 3px solid #ccc;
+}
+.profile-person {
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    /* min-height: 300px; */
+    padding: 20px;
+    
+}
+.profile-person .profile-text{
+    width: 60%;
+    padding: 20px;
+}
+.profile-person .profile-text h2, .container .title-intro h1 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #4f8a8b;
+}
+.profile-person .profile-text h2 {
+    font-size: 1.8em;
+}
+.profile-person .social {
+    position: absolute;
+    top: 120px;
+    left: -70px;
+}
+.profile-person .social ul {
+    list-style: none;
+}
+
+.profile-person .social li {
+    margin: 5px 0;
+}
+
+.profile-person .social a {
+    text-decoration: none;
+    color: #4f8a8b;
+    font-size: 1.7em;
+}
+
+.profile-person .social a:hover {
+    font-size: 2em;
+    transition: 0.3s;
+}
+
+.round-image {
+    min-width: 350px;
+    height: 350px;
+    background-color: aqua;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+
+/* image placeholder */
+.img-1 {
+    background-image: url('img/img-1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.img-2 {
+    background-image: url('img/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.img-3 {
+    background-image: url('img/img-3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.img-4 {
+    background-image: url('img/img-4.jpg');
+    background-position: center;
+    background-size: cover;
+}
+/* Button CSS */
+.profile-text a, .btn-more{
+    text-decoration: none;
+    color: #fff;
+    background-color: #00796B;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.4);
+}
+.profile-text a:hover{
+    background-color: #1fa898;
+    transition: 0.3s;
+}
+/* BATAS MAIN CONTENT */
+
+/* Newsletter */
+.wrapper-newsletter {
+	overflow: hidden;
+	padding: 5em 0em;
+	background: #f1f1f1;
+}
+.wrapper-newsletter .newsletter {
+	text-align: center;
+}
+.newsletter .tittle {
+	margin-bottom: 5em;
+}
+.newsletter input, .newsletter textarea {
+	margin-bottom: 16px;
+	position: relative;
+	border-radius: 0.5em;
+	border: 0;
+	width: 50%;
+	padding: 24px ;
+	font-size: 1em;
+	outline: none;
+	overflow: hidden;
+}
+
+.newsletter .button {
+	display: inline-block;
+	margin-top: 2em;
+	padding: 15px 20px;
+	background-color: #00796B;
+	border-radius: 0.5em;
+	text-transform: uppercase;
+	text-decoration: none;
+    color: #fff;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.4);
+
+}
+
+/* Batas Newsletter */
+
+
+/* CSS Footer */
+footer {
+    background-color:#212F3C;
+    width: 100%;
+}
+
+footer p {
+    font-size: smaller;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-link {
+    width: 30%;
+    color:white;
+    padding:0 20px;
+    margin: 10px 10px 0 10px;
+}
+
+
+.footer-link h3 {
+    padding-bottom: 5px;
+    border-bottom: 5px solid #F39C12;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 120px;
+    width: 100%;
+    color: white;
+    border-top: thin solid white;   
+}
+/* Batas Footer */
+
+/* CSS MEDIA QUERY */
+@media only screen and (max-width: 969px) {
+    .profile-person {
+        flex-wrap: wrap;
+    }
+
+    .profile-person .profile-text{ 
+        width: 100%;
+    }
+
+    .round-image {
+        margin: 30px auto 0 auto;
+    }
+
+    .footer-link {
+        width: 80%;
+    }
+
+    .container .title-intro .intro {
+        width: 100%;
+    }
+
+    .login input, .login textarea {
+        width: 80%;
+    }
+
+    .logo h1 {
+        font-size: 35px;
+    }
+    .header-wrapper {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 569px) {
+    .container {
+        width: 100%;
+    }
+
+    .round-image {
+        min-width: 250px;
+        height: 250px;
+        margin: 30px auto 0 auto;
+    }
+
+    .profile-person .social {
+        left: 0;
+        top: 80px;
+    }
+    .footer-link {
+        width: 100%;
+    }
+}
+
